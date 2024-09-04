@@ -8,16 +8,14 @@
 	<RepositoryUrl>https://github.com/PixelogicMedia/PXL_MinimumEditDistance</RepositoryUrl>
 	<Deterministic>false</Deterministic>
 	<PackageId>Pixelogic.$(AssemblyName)</PackageId>
+	<AssemblyTitle>MinimumEditDistance</AssemblyTitle>
+	<Product>MinimumEditDistance</Product>
+	<Copyright>Copyright ©  2013</Copyright>
+	<FileVersion>1.2.1</FileVersion>
+	<AssemblyVersion>$(FileVersion)</AssemblyVersion>
+	<Version>$(FileVersion)</Version>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DocumentationFile>bin\Release\MinimumEditDistance.XML</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-    <AssemblyTitle>MinimumEditDistance</AssemblyTitle>
-    <Product>MinimumEditDistance</Product>
-    <Copyright>Copyright ©  2013</Copyright>
-    <AssemblyVersion>1.2.1</AssemblyVersion>
-    <FileVersion>1.2.1</FileVersion>
   </PropertyGroup>
 </Project>
